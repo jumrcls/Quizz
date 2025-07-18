@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>QUIZ INTERACTIF</title>
+</head>
+
+<body>
+    <div class="quizz-container">
+    <h1>QUIZZ INTERACTIF</h1>
+
+   <section class="quizz-grid">
+  <div class="questions">
+    <p id="question-text">De quelles couleurs est la Veuve Noire ?</p>
+  </div>
+
+  <div class="réponses">
+    <div class="answers">
+      <button class="answer-button" data-index="0">Réponse 1</button>
+      <button class="answer-button" data-index="1">Réponse 2</button>
+      <button class="answer-button" data-index="2">Réponse 3</button>
+    </div>
+
+    <p id="feedback-text"></p>
+    <button id="next-button" style="display: none">Next question please</button>
+    <button id="fullReset" style="display: none">Recomencer</button>
+    <p id="score-display" style="display: none;"></p>
+
+  </div>
+</section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
